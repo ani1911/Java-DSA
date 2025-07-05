@@ -16,10 +16,10 @@ class Pen{
    private  String color;
    private  int tip;
 
-    Pen(){                                        
+    Pen(){
         color = "Blue";
         tip = 1;
-    } 
+    }
 
     //shallow  copy constructor
 
@@ -36,7 +36,7 @@ class Pen{
 
 
     // java has garbage collector no need of destructor
-    
+
 
     String getColor() {
         return this.color;
